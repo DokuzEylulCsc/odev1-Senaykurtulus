@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>SENAY KURTULUŞ 2019280003</title>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            function toplama(){
+                var sayi1 = parseInt(document.getElementById("id1").value);
+                var sayi2 = parseInt(document.getElementById("id2").value);
+                var topla = sayi1 + sayi2 ;
+                alert(topla);
+            }
+            function yazma(){
+                var yazi1 = document.getElementById("id3").value;
+                var yazi2 = document.getElementById("id4").value;
+                var yaz = yazi1 + " " + yazi2;
+                alert(yaz);
+            }
+        </script>
+        <h2>SENAY KURTULUŞ 2019280003</h2>
+        <label for="id1">Metin Kutusu 1</label>
+        <input type='text' onkeypress='return event.charCode>= 48 &&event.charCode<= 57' id='id1' />
+        <br>
+        <label for="id2">Metin Kutusu 2</label>
+        <input type='text' onkeypress='return event.charCode>= 48 &&event.charCode<= 57' id='id2' />
+        <br><br>
+        <button type="button" onclick="toplama()">Topla</button>
+        <br><br>
+        <label for="id3">Metin kutusu 3</label>
+        <input type='text' id='id3' />
+        <br>
+        <label for="id4">Metin kutusu 4</label>
+        <input type='text' id='id4' />
+        <br><br>
+        <button type="button" onclick="yazma()">Yapıştır</button>
+        
+    </body>
+    <!--http://minimalcoding.net/blog/javascript-ile-input-alanlarina-sadece-rakam-girebilmek/-->
+    <!--http://www.oguzhantas.com/javascript/297-javascript-ile-basit-hesaplama-islemleri.html-->
+    <!--https://www.dijitalders.com/icerik/21/1840/alert_confirm_ve_promt.html-->
+    <!--https://www.yazilimbilisim.net/javascript/javascript-butona-tiklayinca-sayiyi-arttirma-azaltma/-->
+    <!--http://murataltunok.blogspot.com/2017/03/javascript-ile-toplama-islemi.html-->
+    <!--http://www.btdersleri.com/ders/JavaScript-Değişken-Kullanımı-->
+</html>
